@@ -1,0 +1,23 @@
+{
+    "name": "mag/s3",
+    "description": "S3 Uploader for Yii2 Framework",
+    "type": "library",
+    "keywords": ["s3","upload","yii2"],
+    "homepage": "https://github.com/3dmaxpayne/s3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Gordienko",
+            "email": "3dmaxpayne@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "aws/aws-sdk-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "mag\\": ""
+        }
+    }
+}

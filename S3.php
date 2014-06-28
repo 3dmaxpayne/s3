@@ -11,7 +11,7 @@
  * @author Maxim Gordienko (3dmaxpayne.com)
  */
 
-namespace mag\S3;
+namespace mag;
 use Aws\S3\S3Client;
 use Aws\S3\Exception\S3Exception;
 use yii\base\Component;
